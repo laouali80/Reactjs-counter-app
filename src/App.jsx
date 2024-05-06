@@ -73,7 +73,7 @@ function App() {
 
   function handleAdd() {
     const newCounter = {
-      id: tags.counters.length + 1,
+      id: Math.floor(Math.random() * 10000) + 1,
       value: 0,
     };
 
